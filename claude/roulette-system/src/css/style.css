@@ -1,0 +1,32 @@
+body {
+    background-color: #1a1a1a;
+    color: #f0e68c;
+    font-family: 'Arial', sans-serif;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #d4af37; /* Gold border */
+    background-color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #d4af37; /* Gold color for headings */
+}
+
+.slot {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #d4af37; /* Gold color for slot numbers */
+}
+
+.pin {
+    fill: #d4af37; /* Gold color for pins */
+}
+
+.ball {
+    fill: #ffffff; /* White color for the ball */
+}

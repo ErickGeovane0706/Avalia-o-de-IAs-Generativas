@@ -1,0 +1,21 @@
+{
+  "name": "roulette-canvas",
+  "version": "1.0.0",
+  "description": "A roulette game simulation using HTML5 Canvas and Vanilla JavaScript with real physics.",
+  "main": "src/script.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "roulette",
+    "canvas",
+    "javascript",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

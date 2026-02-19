@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #70c5ce; /* Sky blue background */
+}
+
+canvas {
+    border: 2px solid #fff; /* White border around the canvas */
+    background-color: #70c5ce; /* Same as body background for seamless look */
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff; /* White text for the title */
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for better visibility */
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff; /* White text for the score */
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for better visibility */
+}
